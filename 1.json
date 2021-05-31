@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "title": "10 ноября",
+      "data": [
+        {
+          "user_id": 1,
+          "is_active": true,
+          "balance": 5000,
+          "diagnosis": "пульпит",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 2,
+          "is_active": true,
+          "balance": 3500,
+          "diagnosis": "периодонтит",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 3,
+          "is_active": true,
+          "balance": 2000,
+          "diagnosis": "отбеливание",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 4,
+          "is_active": true,
+          "balance": 1500,
+          "diagnosis": "удаление",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        }
+      ]
+    },
+    {
+      "title": "18 ноября",
+      "data": [
+        {
+          "user_id": 1,
+          "is_active": true,
+          "balance": 5000,
+          "diagnosis": "пульпит",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 2,
+          "is_active": true,
+          "balance": 3500,
+          "diagnosis": "периодонтит",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 3,
+          "is_active": true,
+          "balance": 2000,
+          "diagnosis": "отбеливание",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        },
+        {
+          "user_id": 4,
+          "is_active": true,
+          "balance": 1500,
+          "diagnosis": "удаление",
+          "time": "10:23",
+          "date": "Tue Nov 23 2021 01:38:36 GMT+0000 (UTC)",
+          "user": {
+            "_id": 1,
+            "avatar": "https://source.unsplash.com/random/100x100?face",
+            "fullname": "Nadine Buckner",
+            "phone": "+7 (929) 543-25-21"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
 import styled from "styled-components/native";
+import {GrayText} from "../GrayText";
+import {Badge} from "../Badge";
 
-export const Appointment = ({user,diagnosis,active,time}) => {
+export const Appointment = ({item,navigate}) => {
+    const {user,diagnosis,active,time} = item;
     return (
-                <GroupItem>
+                <GroupItem onPress={navigate.bind(this,"PatientCard",item)}>
                         <Avatar source={{
                             uri: user.avatar
                         }} />
@@ -12,32 +15,10 @@ export const Appointment = ({user,diagnosis,active,time}) => {
                             <FullName>{user.fullname}</FullName>
                             <GrayText>{diagnosis}</GrayText>
                         </View>
-                        <DateContainer active={active}>
-                            <GroupDate active={active}>{time}</GroupDate>
-                        </DateContainer>
+                        <Badge text={time} active={active} />
                     </GroupItem>
     );
 }
-const DateContainer = styled.View`
-  background:${props => props.active ? "#2a86ff" : "#e9f5ff"}
-  border-radius: 18px;
-  width: 70px;
-  height: 32px;
-  align-items: center;
-  justify-content: center;
-`;
-
-const GroupDate = styled.Text`
-  color:${props => props.active ? "#ffffff" : "#4294ff"}
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 28px;
-`
-
-const GrayText = styled.Text`
-  font-size: 16px;
-  color: #8b979f;
-`;
 
 const FullName = styled.Text`
   font-weight: 600;
